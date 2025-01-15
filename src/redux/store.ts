@@ -1,4 +1,6 @@
-import { configureStore, applyMiddleware } from '@reduxjs/toolkit';
+import { configureStore, 
+  // applyMiddleware
+ } from '@reduxjs/toolkit';
 // import thunk from 'redux-thunk';
 import todoReducer from "./features/todoSlice";
 
