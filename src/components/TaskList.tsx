@@ -5,8 +5,8 @@ export default function TaskList(){
     const taskList = useAppSelector((state) => state.todoReducer);
 
     return(
-        <div className="mt-4 p-4 min-h-56">
-            <h2 className="text-xl font-semibold">Tasks</h2>
+        <div className="p-4 min-h-56">
+            <h2 className="text-xl my-4 font-semibold">Tasks</h2>
 
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-4">
             
